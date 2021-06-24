@@ -1,0 +1,130 @@
+body{
+    background-image: url(https://codehs.com/uploads/ea6b066dfd3f972b70ec9519e74cc398);
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #FFA500;
+  }
+  
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  .tab button:hover {
+    background-color: #ffaf1a
+  }
+  
+  
+  .tab button.active {
+    background-color: #e69500;
+  }
+  
+  
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: white;
+  }
+  
+  
+  .topright {
+    float: right;
+    cursor: pointer;
+    font-size: 28px;
+  }
+  
+  .topright:hover {color: red;}
+  
+  #intro{
+    font-family: 'Source Code Pro', monospace;  
+    font-size: 28px;
+    font-weight: bold;
+    width: 250px;
+    display: block;
+    text-align: center;
+  }
+  
+  .bottomright{
+    float: right;
+    background-color: #FFA500;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+  }
+  .bottomright:hover {color: #ffaf1a;}
+
+h1, h3{
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+}
+
+.info{
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 15px;
+    text-align: center;
+}
+
+iframe{
+    border:none;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.pill-nav a {
+    display: block;
+    color: black;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+    background-color:#FFA500;
+    text-align:center;
+  }
+  
+  .pill-nav a:hover {
+    background-color: #ffaf1a;
+    color: black;
+  }
+  
+  .separate{
+    display: block;
+    margin-top: 0.5em; 
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    clear: both;
+    visibility: hidden;
+  }
+
+a{
+    text-decoration: none;
+}
+
+video{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
